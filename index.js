@@ -14,6 +14,8 @@ let tasks = [];
 // Sample task structure:
 // { id: 1, title: "Sample Task", completed: false }
 
+
+
 // Endpoint to get all tasks
 app.get('/tasks', (req, res) => {
     res.json(tasks);
