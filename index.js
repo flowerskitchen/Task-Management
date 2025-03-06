@@ -11,8 +11,6 @@ app.use(express.json());
 // In-memory tasks array to store tasks
 let tasks = [];
 
-
-
 // Sample task structure:
 // { id: 1, title: "Sample Task", completed: false }
 
